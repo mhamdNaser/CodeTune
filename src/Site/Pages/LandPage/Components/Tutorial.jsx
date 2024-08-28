@@ -11,7 +11,10 @@ import { useOutletContext } from "react-router";
 export default function Tutorial() {
   const { mode } = useOutletContext();
   return (
-    <div className="w-full h-[620px] my-4 flex flex-row-reverse items-center">
+    <div
+      className="w-full h-[620px] my-4 flex flex-row-reverse items-center pt-96"
+      id="tutorial"
+    >
       <div className="grid grid-cols-2 gap-6 absolute mr-[20%]">
         <div className="relative">
           <img

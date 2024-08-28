@@ -16,7 +16,7 @@ export default function Header({ direction, handleMode,  mode }) {
   return (
     <>
       <nav
-        className={`flex justify-between items-center lg:items-end bg-blocks-color shadow-md px-12 ${direction}`}
+        className={`sticky top-0 z-40 flex justify-between items-center lg:items-end bg-blocks-color shadow-md px-12 ${direction}`}
       >
         <div
           className={`w-[70%] flex m-auto justify-between items-center lg:items-end bg-blocks-color ${direction}`}

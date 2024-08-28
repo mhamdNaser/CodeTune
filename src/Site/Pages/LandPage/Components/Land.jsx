@@ -4,7 +4,7 @@ import { useOutletContext } from "react-router";
 export default function Land() {
   const { mode } = useOutletContext();
   return (
-    <div className="flex flex-row-reverse py-28 px-12">
+    <div className="flex flex-row-reverse py-28 px-12" id='home'>
       <div className="relative flex flex-row-reverse w-full" id="test1">
         {/* Background dotted pattern */}
         <div className="relative flex flex-row-reverse w-1/2 z-0">

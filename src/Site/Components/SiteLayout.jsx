@@ -33,7 +33,6 @@ export default function SiteLayout() {
     });
   }, []);
 
-
   const handleMode = () => {
     setMode((prevMode) => (prevMode === "light" ? "dark" : "light"));
   };
@@ -55,7 +54,7 @@ export default function SiteLayout() {
       <Header handleMode={handleMode} mode={mode} />
       <Outlet
         context={{
-          mode
+          mode,
         }}
       />
       <Footer socialMedia={socialMedia} mode={mode} />
