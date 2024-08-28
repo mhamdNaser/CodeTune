@@ -1,0 +1,137 @@
+{
+  "Dashboard": {
+    "name": null,
+    "path": "/dashboard/",
+    "perId": "home"
+  },
+  "Admins Manage": {
+    "Admins": {
+      "path": "/dashboard/alladmins",
+      "name": null,
+      "perId": "allAdmin"
+    },
+    "Roles": {
+      "path": "/dashboard/allroles",
+      "name": null,
+      "perId": "allRole"
+    },
+    "Admins Archive": {
+      "path": "/dashboard/adminarchives",
+      "name": null,
+      "perId": "archiveAdmin"
+    }
+  },
+  "Accounts Manage": {
+    "Users": {
+      "path": "/dashboard/allusers",
+      "perId": "allUsers"
+    },
+    "Users Archive": {
+      "path": "/dashboard/userarchives",
+      "perId": "archivedUsers"
+    }
+  },
+  "Category & Brand": {
+    "Categories": {
+      "path": "/dashboard/allcategories",
+      "perId": "allCategory"
+    },
+    "Brands": {
+      "path": "/dashboard/allbrands",
+      "perId": "allBrand"
+    },
+    "Brands Of Category": {
+      "path": "/dashboard/brandsCategory",
+      "perId": "Brands Of Category"
+    }
+  },
+  "Products Manage": {
+    "Attribute": {
+      "path": "/dashboard/allattributes",
+      "perId": "allAtributes"
+    },
+    "Products": {
+      "path": "/dashboard/allproducts",
+      "perId": "allProducts"
+    },
+    "Products Archive": {
+      "path": "/dashboard/archiveproducts",
+      "perId": "archiveProducts"
+    }
+  },
+  "Orders Manage": {
+    "All Order": {
+      "path": "/dashboard/allorder",
+      "perId": "allOrder"
+    },
+    "Tax": {
+      "path": "/dashboard/tax",
+      "perId": "tax"
+    },
+    "Delivery": {
+      "path": "/dashboard/delivery",
+      "perId": "delivery"
+    }
+  },
+  "Payment": {
+    "Payment Method": {
+      "name": null,
+      "path": "/dashboard/paymentmethod",
+      "perId": "paymentsMethod"
+    },
+    "Payments Table": {
+      "path": "/dashboard/allpayment",
+      "perId": "allPayments"
+    }
+  },
+  "Locations Manage": {
+    "Country": {
+      "path": "/dashboard/allcountries",
+      "perId": "location"
+    }
+  },
+  "Pages Settings": {
+    "Privacy Page": {
+      "path": "/dashboard/privacy",
+      "perId": "privacy"
+    },
+    "Contact Setting Page": {
+      "path": "/dashboard/contactsetting",
+      "perId": "contactsetting"
+    },
+    "Terms Conditions Page": {
+      "path": "/dashboard/termsconditions",
+      "perId": "termsconditions"
+    },
+    "Land Page Images": {
+      "path": "/dashboard/LandPageImages",
+      "perId": "LandPageImages"
+    }
+  },
+  "Company Settings": {
+    "company Info": {
+      "path": "/dashboard/companyInfo",
+      "perId": "company Info"
+    },
+    "Social Media": {
+      "path": "/dashboard/socialmedia",
+      "perId": "socialmedia"
+    }
+  },
+  "Languages": {
+    "name": null,
+    "path": "/dashboard/languages",
+    "perId": "languages"
+  },
+  "Help": {
+    "Image Size": {
+      "path": "/dashboard/ImageSize",
+      "perId": "ImageSize"
+    }
+  },
+  "Back To Site": {
+    "name": null,
+    "path": "/dashboard/",
+    "perId": "backToSite"
+  }
+}
